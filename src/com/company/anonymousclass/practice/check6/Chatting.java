@@ -1,4 +1,4 @@
-package anonymousclass.practice.check6;
+package com.company.anonymousclass.practice.check6;
 
 public class Chatting {
 	void startChat(String chatId) {

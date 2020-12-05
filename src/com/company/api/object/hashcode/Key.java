@@ -1,4 +1,4 @@
-package api.object.hashcode;
+package com.company.api.object.hashcode;
 
 public class Key {
 	public int number;

@@ -1,4 +1,4 @@
-package anonymousclass.anonycreate;
+package com.company.anonymousclass.anonycreate;
 
 public class Anonymous {
 	RemoteControl field = new RemoteControl() {

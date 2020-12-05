@@ -1,4 +1,4 @@
-package anonymousclass.anonycreate.eventbutton;
+package com.company.anonymousclass.anonycreate.eventbutton;
 
 public class Main {
 

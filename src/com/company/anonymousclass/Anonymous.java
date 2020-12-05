@@ -1,4 +1,4 @@
-package anonymousclass;
+package com.company.anonymousclass;
 
 public class Anonymous {
 	Person field = new Person() {

@@ -1,4 +1,4 @@
-package api.object.equals;
+package com.company.api.object.equals;
 
 public class Member {
 	public String id;

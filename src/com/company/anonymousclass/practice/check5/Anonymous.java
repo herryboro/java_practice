@@ -1,4 +1,4 @@
-package anonymousclass.practice.check5;
+package com.company.anonymousclass.practice.check5;
 
 public class Anonymous {
 	Vehicle field = new Vehicle() {

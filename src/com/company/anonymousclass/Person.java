@@ -1,4 +1,4 @@
-package anonymousclass;
+package com.company.anonymousclass;
 
 public class Person {
 	void wake() {
