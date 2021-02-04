@@ -1,5 +1,7 @@
 package com.company.Exception;
 
+import java.io.FileInputStream;
+
 public class TryWithResourceExample {
     public static void main(String[] args) {
         try (FileInputStream fis = new FileInputStream("file.txt")) {

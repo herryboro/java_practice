@@ -1,30 +1,32 @@
 package com.company.IO.consoleIO;
 
+import java.io.FileInputStream;
+import java.io.IOException;
 import java.io.InputStream;
 
 public class SystemInExample2 {
     public static void main(String[] args) throws Exception {
+
         InputStream is = System.in;
         byte[] datas = new byte[10];
 
         System.out.print("이름: ");
         int nameBytes = is.read(datas);
-        System.out.println("nameBytes: " + nameBytes);
-        String name = new String(datas, 0, nameBytes-1);
-
-        System.out.print("이름2: ");
-        int nameBytes2 = is.read(datas);
-        System.out.println("nameBytes2: " + nameBytes2);
-        String name2 = new String(datas, 0, nameBytes2-1);
+        String name = new String(datas,0, nameBytes-1);
 
         System.out.print("하고 싶은말: ");
         int commentBytes = is.read(datas);
-        System.out.println("commentBytes: " + commentBytes);
-        String comment = new String(datas, 0, commentBytes - 1);
+        String comment = new String(datas,0, nameBytes-1);
 
         System.out.println("입력한 이름: " + name);
-        System.out.println("입력한 하고싶은 말: " + name2);
         System.out.println("입력한 하고싶은 말: " + comment);
+
+        /*InputStream io = new FileInputStream("C:/c.txt");
+        int readBytes;
+        while ((readBytes=io.read()) != -1) {
+            System.out.println((readBytes));
+        }
+        System.out.println(readBytes);*/
 
     }
 }
