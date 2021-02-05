@@ -14,7 +14,7 @@ public class FileOutputStreamExample {
         FileOutputStream fos = new FileOutputStream(targetFileName);
 
         int readByteNo;
-        byte[] readBytes = new byte[5];
+        byte[] readBytes = new byte[10000];
 
         while ((readByteNo = fis.read(readBytes)) != -1) {
             fos.write(readBytes,0, readByteNo);
