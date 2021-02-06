@@ -18,10 +18,8 @@ public class BufferedOutputStreamExample {
         fos = new FileOutputStream("C:/Temp/dog.jpg");
         start = System.currentTimeMillis();
         while ((data = bis.read()) != -1) {
-            System.out.println("반복문 안: " + data);
             fos.write(data);
         }
-        System.out.println("반복문 밖: " + data);
         fos.flush();
         end = System.currentTimeMillis();
         fos.close();
@@ -35,6 +33,19 @@ public class BufferedOutputStreamExample {
         bos = new BufferedOutputStream(fos);
         start = System.currentTimeMillis();
         while ((data = bis.read()) != -1) {
+            bos.write(data);
+        }
+        bos.flush();
+        end = System.currentTimeMillis();
+        bos.close(); fos.close(); bis.close(); fis.close();
+        System.out.println("사용했을때 : " + (end - start) + "ms");
+
+        fis = new FileInputStream("C:/owner/20201020191346댕댕2.PNG");
+        bis = new BufferedInputStream(fis);
+        fos = new FileOutputStream("C:/Temp/dog3.jpg");
+        bos = new BufferedOutputStream(fos);
+        start = System.currentTimeMillis();
+        while ((data = fis.read()) != -1) {
             bos.write(data);
         }
         bos.flush();
