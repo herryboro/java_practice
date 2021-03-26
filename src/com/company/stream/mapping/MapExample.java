@@ -1,7 +1,8 @@
-package stream.mapping;
+package com.company.stream.mapping;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.IntStream;
 
 public class MapExample {
 
@@ -12,9 +13,10 @@ public class MapExample {
 				new Student("강감찬", 30)
 		);
 		
-		studentList.stream()
-			.mapToInt(n -> n.getScore())
-			.forEach(score -> System.out.println(score));
+		int sum = studentList.stream().mapToInt(n -> n.getScore()).sum()/3;
+		System.out.println(sum);
+		int a = 0 % 2;
+		System.out.println(a);
 	}
 
 }

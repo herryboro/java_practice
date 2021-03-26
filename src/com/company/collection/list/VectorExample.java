@@ -1,4 +1,4 @@
-package collection.list;
+package com.company.collection.list;
 
 import java.util.List;
 import java.util.Vector;

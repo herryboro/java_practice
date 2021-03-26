@@ -1,4 +1,4 @@
-package stream.mapping;
+package com.company.stream.mapping;
 
 public class Student {
 	private String name;
