@@ -1,4 +1,4 @@
-package innerclass.innerinterface.inner.basic;
+package com.company.innerclass.innerinterface.inner.basic;
 
 public class Main {
 
