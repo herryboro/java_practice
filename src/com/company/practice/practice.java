@@ -6,8 +6,8 @@ import java.util.stream.IntStream;
 
 public class practice {
     public static void main(String[] args) {
-        List list = IntStream.range(0, 10).mapToObj(i -> new SampleVO(i, i + " First", i + " Last"))
-                .collect(Collectors.toList());
-        System.out.println(list);
+       String fileName = "2020-05-14-18-59-47-466.jpg";
+       int num = fileName.lastIndexOf("\\");
+       System.out.println(num);
     }
 }
