@@ -1,7 +1,7 @@
-//package study_interface;
-//
-//public interface Vehicle {
-//	public String run();
-//}
-//
+package com.company.study_interface;
+
+public interface Vehicle {
+	public String run();
+}
+
 

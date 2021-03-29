@@ -1,7 +1,6 @@
-package study_interface.practice;
+package com.company.study_interface.practice;
 
 public class Cat implements Soundable {
-	
 	@Override
 	public String sound() {
 		return "야옹";

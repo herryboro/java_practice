@@ -1,4 +1,4 @@
-package study_interface;
+package com.company.study_interface;
 
 public interface RemoteController {
 	int max_volume = 10;

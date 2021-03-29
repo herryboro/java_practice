@@ -1,4 +1,4 @@
-package study_interface;
+package com.company.study_interface;
 
 public class SmartTelevision implements RemoteController, Searchable {
 	private int volume;

@@ -1,4 +1,4 @@
-package study_interface.practice;
+package com.company.study_interface.practice;
 
 public class Tiger implements Soundable {
 	

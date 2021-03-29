@@ -1,4 +1,4 @@
-package study_interface.contain_default_method;
+package com.company.study_interface.contain_default_method;
 
 public interface ChildInterface2 extends ParentInterface {
 	

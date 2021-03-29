@@ -1,7 +1,7 @@
 package com.company.chpater07_inheritance.polymorphism;
 
 public class Car {
-    Tire frontLeftTire = new Tire(6,"앞 왼쪽");
+    Tire frontLeftTire = new Tire(1,"앞 왼쪽");
     Tire frontRightTire = new Tire(2,"앞 오른쪽");
     Tire backLeftTire = new Tire(3,"뒤 왼쪽");
     Tire backRightTire = new Tire(4,"뒤 오른쪽");

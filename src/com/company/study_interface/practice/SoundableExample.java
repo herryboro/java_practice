@@ -1,10 +1,13 @@
-package study_interface.practice;
+package com.company.study_interface.practice;
 
 public class SoundableExample {
+	public static void printSound(Soundable soundable) {
+		System.out.println(soundable.sound());
+	}
 
 	public static void main(String[] args) {
-		Soundable sounable = new Tiger();
-		System.out.println(sounable.sound());
+		printSound(new Cat());
+		printSound(new Dog());
 	}
 
 }
