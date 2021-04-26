@@ -1,4 +1,4 @@
-package lambda.functional_interface.minby_maxby;
+package com.company.lambda.functional_interface.minby_maxby;
 
 import java.util.function.BinaryOperator;
 
